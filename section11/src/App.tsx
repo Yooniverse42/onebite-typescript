@@ -67,9 +67,7 @@ function App() {
             onClickDelete,
           }}
         >
-          <Editor>
-            <h1>hi</h1>
-          </Editor>
+          <Editor />
           <div>
             {todos.map((todo) => (
               <TodoItem key={todo.id} {...todo} />
